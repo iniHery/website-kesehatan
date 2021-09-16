@@ -1,0 +1,1003 @@
+@font-face {
+  font-family: "Gotham";
+  src: url(../Gotham-Font/Gotham/Gotham-Light.otf);
+}
+
+/* HEADER */
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/bg10.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 80px;
+  font-family: "Gotham";
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 26px;
+  cursor: pointer;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  margin: auto 0;
+}
+
+.logo img {
+  width: auto;
+  height: 34px;
+  padding-right: 6px;
+}
+
+.navbar a {
+  padding: 14px 30px;
+  transition: 0.3s all;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #dd0159;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-header {
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+  margin-left: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-header h1 {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Gotham";
+  color: #fff;
+}
+
+.content-header p {
+  font-size: 20px;
+  font-family: "Gotham";
+  color: #fff;
+}
+
+.btn-header {
+  padding-top: 8%;
+}
+
+.btn-daftar {
+  padding: 14px 70px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Gotham";
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-right: 20px;
+}
+
+.btn-daftar:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #dd0159;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-header .bg-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-header img {
+  width: 350px;
+  height: 350px;
+}
+
+.mobile-nav {
+  display: none;
+  color: #000;
+}
+
+.mobile-nav button {
+  background-color: rgb(247, 188, 88);
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mobile-nav button:hover {
+  background-color: rgb(0, 98, 255);
+}
+
+.mobile-nav-content {
+  display: none;
+  position: fixed;
+  padding: 20px;
+  top: 50px;
+  left: 70%;
+  right: 4%;
+  border-radius: 6px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+}
+
+.mobile-nav-content.visible {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mobile-nav-content a {
+  text-align: center;
+  padding: 10px 6px;
+  font-family: "Gothams";
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+.main {
+  padding: 0px 40px;
+  height: auto;
+  width: 100%;
+}
+
+.main h1 {
+  font-family: "Gotham";
+  color: #fff;
+  font-size: 40px;
+}
+
+.content-main {
+  margin: 0px 75px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.content-main form {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
+    0 6px 18px 0 rgba(133, 132, 132, 0.36);
+  border-radius: 10px;
+  margin-top: 70px;
+  height: auto;
+  width: 100%;
+  background-color: #ff0066;
+}
+
+.content-main p {
+  font-size: 20px;
+  font-family: "Gotham";
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 22px;
+  text-align: start;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-memberi {
+  padding: 10px 50px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Gotham";
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.btn-memberi:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+  background-color: #fff;
+  border: transparent;
+  color: #bb004b;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-main-left {
+  height: 40vh;
+  width: auto;
+  border-radius: 10px 90px 90px 10px;
+}
+
+/* END MAIN */
+
+/* NEWS */
+
+.news {
+  padding: 0px 40px;
+  height: 80vh;
+  width: 100%;
+}
+
+.news h1 {
+  font-family: "Gotham";
+  margin-left: 5.5%;
+  padding-top: 30px;
+}
+
+.content-news {
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  width: auto;
+  margin: 46px;
+}
+
+.content-news form {
+  margin: 10px 25px;
+  width: auto;
+  height: 49vh;
+  box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
+    0 0px 10px 0 rgba(133, 132, 132, 0.36);
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content-news form:hover {
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.24), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+
+.content-img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 1fr;
+  height: 32vh;
+}
+
+.content-news h3 {
+  font-size: 16px;
+  font-family: "Gotham";
+  margin: 10px;
+}
+
+.content-news h3 p {
+  font-size: 10px;
+}
+
+.content-news p {
+  margin: 10px;
+  font-size: 10px;
+  font-family: "Gotham";
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-news span {
+  color: #bb004b;
+  padding: 0;
+  margin: 0;
+}
+
+/* END NEWS */
+
+/* MEDICINE */
+
+.medicine {
+  height: auto;
+  width: auto;
+  margin: 0px 88px;
+}
+
+.medicine h1 {
+  font-family: "Gotham";
+  margin-left: 1.5%;
+  padding-top: 30px;
+}
+
+.medicine p {
+  font-family: "Gotham";
+  margin-left: 1.5%;
+}
+
+.main-medicine {
+  padding: 0px 0px;
+}
+
+.content-medicine {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  margin-left: 1%;
+}
+
+.content-medicine form {
+  border: 1px solid rgb(180, 180, 180);
+  height: auto;
+  width: auto;
+  margin: 10px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.content-medicine form:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+
+.content-medicine img {
+  height: 50px;
+  background-color: #93b5c6;
+  border-radius: 100%;
+}
+
+.content-medicine h4 {
+  font-family: "Gotham";
+  margin: auto 20px;
+  font-size: 14px;
+}
+
+.content-medicine h3 {
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 auto;
+  color: #dd0159;
+}
+
+.media-footer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.media-footer img {
+  height: 12px;
+}
+
+/* END MEDICINE */
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+  background-color: #310014;
+  font-family: "Gotham";
+  color: #fff;
+}
+
+.main-footer {
+  padding: 4% 8% 0% 8%;
+  height: auto;
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.content-footer h5 {
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.content-footer p {
+  font-size: 12px;
+  margin: auto 0;
+  padding: 8px 0px;
+}
+
+.bottom-footer {
+  background-color: #22000e;
+  height: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0% 8%;
+}
+
+.bottom-footer h4 {
+  padding: 17px 0px;
+  margin: 0;
+  /* text-align: center; */
+}
+
+.logo-footer {
+  display: flex;
+  padding-left: 26px;
+  cursor: pointer;
+}
+
+.logo-footer h1 {
+  color: #fff;
+  font-size: 26px;
+  margin: 0 auto;
+}
+
+.logo-footer img {
+  width: auto;
+  height: 34px;
+  padding-right: 6px;
+}
+
+.bottom-footer img {
+  width: auto;
+  height: 16px;
+  padding: 0px 8px;
+}
+
+.media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  cursor: pointer;
+}
+
+.media-footer img {
+  height: 12px;
+  padding-right: 6px;
+}
+
+/* END FOOTER */
+
+@media (max-width: 1024px) {
+  /* HEADER */
+  .logo {
+    padding-left: 12px;
+  }
+
+  .logo h1 {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .logo img {
+    height: 28px;
+    padding-right: 4px;
+  }
+  .content-header h1 {
+    font-size: 46px;
+  }
+
+  .content-header p {
+    font-size: 16px;
+  }
+  .btn-daftar {
+    padding: 10px 60px;
+    font-size: 12px;
+  }
+
+  .content-header img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  /* END HEADER */
+
+  /* MAIN */
+
+  .main h1 {
+    font-size: 28px;
+  }
+
+  .content-main form {
+    display: grid;
+    grid-template-columns: 0.6fr 0.5fr;
+    box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
+      0 6px 18px 0 rgba(133, 132, 132, 0.36);
+    border-radius: 10px;
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    background-color: #ff0066;
+  }
+
+  .content-main p {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  .btn-memberi {
+    padding: 8px 40px;
+    margin: 30px 0px 0px 0px;
+
+    font-size: 10px;
+  }
+
+  .btn-memberi:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: #fff;
+    border: transparent;
+    color: #bb004b;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .title-main {
+    padding: 0px 20px;
+  }
+
+  /* END MAIN */
+
+  /* NEWS */
+
+  .news h1 {
+    margin-left: 7%;
+  }
+
+  .content-news {
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 55vh;
+    margin: 46px 46px 0px 46px;
+  }
+
+  .content-news h3 {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+
+  .content-news h3 p {
+    font-size: 8px;
+  }
+
+  .content-news p {
+    font-size: 8px;
+    margin: 8px 10px;
+  }
+
+  /* END NEWS */
+
+  /* MEDICINE */
+
+  .medicine h1 {
+    font-family: "Gotham";
+    margin-left: 2.5%;
+    padding-top: 0px;
+  }
+
+  .medicine p {
+    font-family: "Gotham";
+    margin-left: 2.5%;
+    padding-top: 0px;
+  }
+
+  .main-medicine {
+    margin: 0px 5px;
+  }
+
+  /* END MEDICINE */
+
+  /* FOOTER */
+
+  .bottom-footer h4 {
+    padding: 17px 0px;
+    margin-left: 28px;
+    font-size: 13px;
+  }
+
+  .logo-footer {
+    display: flex;
+    padding-left: 26px;
+    cursor: pointer;
+  }
+
+  .logo-footer h1 {
+    font-size: 22px;
+  }
+
+  .logo-footer img {
+    width: auto;
+    height: 24px;
+  }
+
+  .bottom-footer img {
+    height: 14px;
+  }
+
+  .content-footer h5 {
+    font-size: 12px;
+  }
+
+  .content-footer p {
+    font-size: 10px;
+  }
+
+  .media-footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .media-footer img {
+    height: 12px;
+    padding-right: 6px;
+  }
+
+  /* END FOOTER */
+}
+
+@media (max-width: 640px) {
+  /* HEADER */
+
+  .header {
+    height: 100vh;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 30px;
+    font-family: "Gotham";
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    padding-left: 0px;
+    cursor: pointer;
+  }
+
+  .logo h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    margin: auto 0;
+    padding: 0px;
+  }
+
+  .logo img {
+    width: auto;
+    height: 24px;
+    padding-right: 6px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .content-header {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+  }
+
+  .content-header h1 {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 40%;
+    font-family: "Gotham";
+    color: #fff;
+  }
+
+  .content-header p {
+    font-size: 14px;
+    font-family: "Gotham";
+    color: #fff;
+  }
+
+  .btn-header {
+    padding-top: 20%;
+  }
+
+  .btn-daftar {
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Gotham";
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-right: 20px;
+  }
+
+  .btn-daftar:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #dd0159;
+    border: 2px solid #fff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+      0 8px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .content-header img {
+    /* width: auto;
+    height: 100px; */
+    display: none;
+  }
+
+  .mobile-nav {
+    height: 0px;
+    width: 0%;
+    padding: 0px 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-nav button {
+    border: transparent;
+    padding: 0px 10px;
+    border-radius: 6px;
+    margin: 5px 0px;
+    font-size: 20px;
+    justify-content: flex-end;
+  }
+
+  /* END HEADER */
+
+  /* MAIN */
+
+  .main {
+    padding: 0px;
+  }
+
+  .main h1 {
+    font-size: 14px;
+  }
+
+  .content-main {
+    margin: 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .content-main form {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
+      0 6px 18px 0 rgba(133, 132, 132, 0.36);
+    border-radius: 10px;
+    margin-top: 0px;
+    height: auto;
+    background-color: #ff0066;
+  }
+
+  .content-main p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 10px;
+  }
+
+  .btn-memberi {
+    padding: 4px 15px;
+    margin: 10px 0px 0px 0px;
+    font-size: 8px;
+  }
+
+  .img-main-left {
+    height: 26vh;
+    width: 170px;
+  }
+
+  /* END MAIN */
+
+  /* NEWS */
+
+  .news {
+    padding: 0px 8px;
+    height: auto;
+  }
+
+  .news h1 {
+    font-size: 16px;
+    margin-left: 4%;
+    padding-top: 0px;
+  }
+
+  .content-news {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 187px;
+    height: auto;
+
+    margin: 20px auto;
+  }
+
+  .content-news form {
+    margin: 10px 15px;
+    width: auto;
+    height: auto;
+  }
+
+  .content-img {
+    height: 20vh;
+  }
+
+  .content-news h3 {
+    font-size: 7px;
+
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .content-news h3 p {
+    font-size: 4px;
+    padding-bottom: 5px;
+    margin: 0px;
+  }
+
+  .content-news p {
+    margin: 5px 10px;
+    font-size: 5px;
+  }
+
+  /* END NEWS */
+
+  /* MEDICINE */
+
+  .medicine {
+    height: auto;
+    width: auto;
+    margin: 0px 8px;
+  }
+
+  .medicine h1 {
+    font-family: "Gotham";
+    margin: 10px 0px;
+    padding-left: 4%;
+    font-size: 14px;
+  }
+
+  .medicine p {
+    font-family: "Gotham";
+    margin: 0px;
+    padding-left: 4%;
+    font-size: 9px;
+  }
+
+  .main-medicine {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-left: 1%;
+  }
+
+  .content-medicine {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .content-medicine form {
+    height: 32px;
+  }
+
+  .content-medicine img {
+    height: 20px;
+  }
+
+  .content-medicine h4 {
+    font-size: 8px;
+    margin: auto 10px;
+  }
+
+  .content-medicine h3 {
+    font-size: 10px;
+  }
+
+  /* END MEDICINE */
+
+  /* FOOTER */
+
+  .main-footer {
+    padding: 20px 26px;
+    height: auto;
+  }
+
+  .content-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+  }
+
+  .content-footer h5 {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 8px;
+  }
+
+  .content-footer p {
+    font-size: 6px;
+    margin: auto 0;
+    padding: 8px 0px;
+  }
+
+  .bottom-footer h4 {
+    padding: 17px 0px;
+    margin: 0;
+    font-size: 6px;
+  }
+
+  .logo-footer {
+    padding-left: 0px;
+  }
+
+  .logo-footer h1 {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0px 10px;
+  }
+
+  .logo-footer img {
+    width: auto;
+    height: 16px;
+    padding-right: 0px;
+  }
+
+  .media-footer p {
+    font-size: 8px;
+  }
+
+  .media-footer img {
+    height: 8px;
+  }
+
+  .tittle-footer {
+    margin: 0 auto;
+  }
+
+  .social-media {
+    padding: 0px 10px;
+  }
+
+  /* END FOOTER */
+}
