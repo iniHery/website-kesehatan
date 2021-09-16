@@ -755,8 +755,6 @@ footer {
   }
 
   .content-header img {
-    /* width: auto;
-    height: 100px; */
     display: none;
   }
 
@@ -844,8 +842,8 @@ footer {
 
   .content-news {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 187px;
-    height: auto;
+    grid-template-rows: 190px;
+    height: 40vh;
 
     margin: 20px auto;
   }
