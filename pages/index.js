@@ -21,20 +21,22 @@ export default function Home() {
             <a>Kontak</a>
           </div>
           <nav className="mobile-nav">
-            <button onClick={() => setShowMobileNav(!showMobileNav)}>=</button>
+            <button onClick={() => setShowMobileNav(!showMobileNav)}>
+              <img src="/menu.png" />
+            </button>
             <div
               className={`mobile-nav-content ${showMobileNav ? "visible" : ""}`}
             >
-              <a>Home</a>
-              <a>About</a>
-              <a>Galery</a>
-              <a>Contact</a>
+              <a>Beranda</a>
+              <a>Berita</a>
+              <a>Informasi</a>
+              <a>Kontak</a>
             </div>
           </nav>
         </div>
         <div className="content-header">
           <div>
-            <h1>Ayo Berbagi Vitamin</h1>
+            <h1>Ayo Berbagi <span>Vitamin!</span></h1>
             <p>
               Inisiatif dari suatu comunitas untuk berbagi vitamin agar bisa
               membantu orang yang tinggal di daerah pedalaman.

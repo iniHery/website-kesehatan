@@ -85,9 +85,9 @@
 .btn-daftar {
   padding: 14px 70px;
   border-radius: 8px;
-  background-color: transparent;
+  background-color: #fff;
   border: 2px solid #fff;
-  color: #fff;
+  color: #dd0159;
   font-size: 16px;
   font-family: "Gotham";
   cursor: pointer;
@@ -123,14 +123,13 @@
 }
 
 .mobile-nav button {
-  background-color: rgb(247, 188, 88);
+  background-color: transparent;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
+  margin: 0px;
   cursor: pointer;
-}
-
-.mobile-nav button:hover {
-  background-color: rgb(0, 98, 255);
+  padding-top: 10px;
+  border: 1px solid;
 }
 
 .mobile-nav-content {
@@ -155,8 +154,9 @@
 
 .mobile-nav-content a {
   text-align: center;
-  padding: 10px 6px;
-  font-family: "Gothams";
+  font-size: 14px;
+  padding: 10px 0px;
+  font-family: "Gotham";
 }
 
 /* END HEADER */
@@ -494,7 +494,12 @@ footer {
     padding-right: 4px;
   }
   .content-header h1 {
-    font-size: 46px;
+    font-size: 26px;
+  }
+
+  .content-header h1 span {
+    font-size: 70px;
+    display: block;
   }
 
   .content-header p {
@@ -542,7 +547,6 @@ footer {
   .btn-memberi {
     padding: 8px 40px;
     margin: 30px 0px 0px 0px;
-
     font-size: 10px;
   }
 
@@ -719,6 +723,11 @@ footer {
     color: #fff;
   }
 
+  .content-header h1 span {
+    font-size: 70px;
+    display: block;
+  }
+
   .content-header p {
     font-size: 14px;
     font-family: "Gotham";
@@ -731,10 +740,10 @@ footer {
 
   .btn-daftar {
     padding: 8px 20px;
-    border-radius: 8px;
-    background-color: transparent;
+    border-radius: 6px;
+    background-color: #fff;
     border: 2px solid #fff;
-    color: #fff;
+    color: #dd0159;
     font-size: 10px;
     font-family: "Gotham";
     cursor: pointer;
@@ -772,11 +781,15 @@ footer {
 
   .mobile-nav button {
     border: transparent;
-    padding: 0px 10px;
+    padding: 12px 20px 10px 0px;
     border-radius: 6px;
     margin: 5px 0px;
-    font-size: 20px;
     justify-content: flex-end;
+  }
+
+  .mobile-nav img {
+    height: 20px;
+    margin: auto;
   }
 
   /* END HEADER */
@@ -810,7 +823,7 @@ footer {
 
   .content-main p {
     font-size: 8px;
-    line-height: 10px;
+    line-height: 8px;
     margin-top: 10px;
   }
 
@@ -818,11 +831,13 @@ footer {
     padding: 4px 15px;
     margin: 10px 0px 0px 0px;
     font-size: 8px;
+    border-radius: 4px;
+    border: 1px solid #fff;
   }
 
   .img-main-left {
     height: 26vh;
-    width: 170px;
+    width: auto;
   }
 
   /* END MAIN */
@@ -844,14 +859,13 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 190px;
     height: 40vh;
-
     margin: 20px auto;
   }
 
   .content-news form {
     margin: 10px 15px;
     width: auto;
-    height: auto;
+    height: 34vh;
   }
 
   .content-img {
