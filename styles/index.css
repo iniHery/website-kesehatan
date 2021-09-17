@@ -711,13 +711,13 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
-    margin-left: 8%;
+    margin-left: 7%;
     display: grid;
     grid-template-columns: 1fr 0.2fr;
   }
 
   .content-header h1 {
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
     padding-top: 40%;
     font-family: "Gotham";
@@ -725,7 +725,7 @@ footer {
   }
 
   .content-header h1 span {
-    font-size: 70px;
+    font-size: 50px;
     display: block;
   }
 
@@ -798,12 +798,12 @@ footer {
   /* MAIN */
 
   .main {
-    padding: 0px ;
+    padding: 0px;
   }
 
   .main h1 {
-    font-size: 14px;
-    padding-top: 10px;
+    font-size: 10px;
+    padding-top: 0px;
   }
 
   .content-main {
@@ -824,7 +824,7 @@ footer {
   }
 
   .content-main p {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 8px;
     margin-top: 10px;
   }
@@ -833,13 +833,17 @@ footer {
     padding: 4px 15px;
     margin: 10px 0px 0px 0px;
     font-size: 8px;
-    border-radius: 4px;
+    border-radius: 3px;
     border: 1px solid #fff;
   }
 
   .img-main-left {
-    height: 22vh;
+    height: 20vh;
     width: auto;
+  }
+
+  .title-main {
+    padding: 0px 10px;
   }
 
   /* END MAIN */
@@ -860,8 +864,9 @@ footer {
   .content-news {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 190px;
-    height: 40vh;
+    height: 35vh;
     margin: 20px auto;
+    margin-bottom: 0px;
   }
 
   .content-news form {
@@ -961,10 +966,9 @@ footer {
   }
 
   .content-footer h5 {
-    margin: 0px;
-    margin-bottom: 10px;
+    margin: 5px 0px;
     padding: 0;
-    font-size: 8px;
+    font-size: 7px;
   }
 
   .content-footer p {
@@ -980,23 +984,22 @@ footer {
   }
 
   .logo-footer {
-    padding-left: 0px;
+    padding: 0px 10px;
   }
 
   .logo-footer h1 {
     font-size: 12px;
-    margin: 0 auto;
-    padding: 0px 10px;
+    margin: 2px 0px;
   }
 
   .logo-footer img {
     width: auto;
-    height: 16px;
-    padding-right: 0px;
+    height: 15px;
+    padding-right: 5px;
   }
 
   .media-footer p {
-    font-size: 8px;
+    font-size: 6px;
   }
 
   .media-footer img {
