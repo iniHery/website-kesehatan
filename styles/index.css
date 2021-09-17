@@ -525,11 +525,12 @@ footer {
 
   .main h1 {
     font-size: 28px;
+    padding-top: 20px;
   }
 
   .content-main form {
     display: grid;
-    grid-template-columns: 0.6fr 0.5fr;
+    grid-template-columns: 0.6fr 1fr;
     box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
       0 6px 18px 0 rgba(133, 132, 132, 0.36);
     border-radius: 10px;
@@ -569,7 +570,7 @@ footer {
   /* NEWS */
 
   .news h1 {
-    margin-left: 7%;
+    margin-left: 70px;
   }
 
   .content-news {
@@ -797,11 +798,12 @@ footer {
   /* MAIN */
 
   .main {
-    padding: 0px;
+    padding: 0px ;
   }
 
   .main h1 {
     font-size: 14px;
+    padding-top: 10px;
   }
 
   .content-main {
@@ -836,7 +838,7 @@ footer {
   }
 
   .img-main-left {
-    height: 26vh;
+    height: 22vh;
     width: auto;
   }
 
@@ -865,7 +867,7 @@ footer {
   .content-news form {
     margin: 10px 15px;
     width: auto;
-    height: 34vh;
+    height: 30vh;
   }
 
   .content-img {
@@ -873,8 +875,7 @@ footer {
   }
 
   .content-news h3 {
-    font-size: 7px;
-
+    font-size: 9px;
     margin: 10px;
     margin-bottom: 0px;
   }
@@ -887,7 +888,7 @@ footer {
 
   .content-news p {
     margin: 5px 10px;
-    font-size: 5px;
+    font-size: 7px;
   }
 
   /* END NEWS */
