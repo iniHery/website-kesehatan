@@ -191,7 +191,7 @@ export default function Home() {
               <h1>KitaSehat</h1>
             </div>
             <div className="tittle-footer">
-              <h5>Bekerjasama dengan </h5>
+              <h5>Bekerjasama </h5>
               <p>Bali Berbagi</p>
               <p>Sehat Bersama</p>
               <p>Satu Hati</p>

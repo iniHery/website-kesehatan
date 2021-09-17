@@ -851,13 +851,13 @@ footer {
   /* NEWS */
 
   .news {
-    padding: 0px 8px;
+    padding: 0px 26px;
     height: auto;
   }
 
   .news h1 {
     font-size: 16px;
-    margin-left: 4%;
+    margin-left: 0%;
     padding-top: 0px;
   }
 
@@ -872,7 +872,7 @@ footer {
   .content-news form {
     margin: 10px 15px;
     width: auto;
-    height: 30vh;
+    height: 31vh;
   }
 
   .content-img {
