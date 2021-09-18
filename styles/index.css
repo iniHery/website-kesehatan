@@ -8,7 +8,7 @@
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url("/bg10.svg");
+  background-image: url("/bg4.svg");
   background-position: center;
   background-size: cover;
 }
@@ -23,7 +23,7 @@
 
 .logo {
   display: flex;
-  padding-left: 26px;
+  padding-left: 36px;
   cursor: pointer;
 }
 
@@ -60,15 +60,24 @@
   align-items: center;
   justify-content: center;
   margin-top: 6%;
-  margin-left: 8%;
+  margin-left: 7%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .content-header h1 {
-  font-size: 60px;
+  font-size: 40px;
   margin: 0;
   font-family: "Gotham";
+  color: #fff;
+  padding-left: 5px;
+}
+
+.content-header h6 {
+  font-family: "Gotham";
+  font-size: 75px;
+  margin: 0;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -76,6 +85,7 @@
   font-size: 20px;
   font-family: "Gotham";
   color: #fff;
+  padding-left: 5px;
 }
 
 .btn-header {
@@ -84,7 +94,8 @@
 
 .btn-daftar {
   padding: 14px 70px;
-  border-radius: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
   background-color: #fff;
   border: 2px solid #fff;
   color: #dd0159;
@@ -161,249 +172,202 @@
 
 /* END HEADER */
 
-/* MAIN */
+/* BRAND */
 
-.main {
-  padding: 0px 40px;
-  height: auto;
-  width: 100%;
+.brand {
+  margin: 6%;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.main h1 {
-  font-family: "Gotham";
-  color: #fff;
+.brand img {
+  width: auto;
+  height: 24vh;
+}
+
+/* END BRAND */
+
+/* FEATURES */
+
+.features {
+  margin: 4% 7%;
+}
+
+.heading-feature h1 {
   font-size: 40px;
+  margin: 10px 0px;
+  font-weight: 600;
 }
 
-.content-main {
-  margin: 0px 75px;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.content-main form {
-  display: grid;
-  grid-template-columns: 0.6fr 1fr;
-  box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
-    0 6px 18px 0 rgba(133, 132, 132, 0.36);
-  border-radius: 10px;
-  margin-top: 70px;
-  height: auto;
-  width: 100%;
-  background-color: #ff0066;
-}
-
-.content-main p {
-  font-size: 20px;
+.heading-feature p {
+  font-size: 17px;
+  margin: 0px;
   font-family: "Gotham";
-  margin-top: 30px;
-  margin-bottom: 0px;
-  line-height: 22px;
-  text-align: start;
-  font-weight: bold;
-  color: #fff;
 }
 
-.btn-memberi {
-  padding: 10px 50px;
-  margin: 40px 0px 0px 0px;
-  border-radius: 6px;
-  background-color: transparent;
-  border: 2px solid #fff;
-  color: #fff;
-  font-size: 14px;
-  font-family: "Gotham";
-  cursor: pointer;
-  transition: 0.3s;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.btn-memberi:hover {
-  transition: 0.2s;
-  transform: scale(1.1);
-  background-color: #fff;
-  border: transparent;
-  color: #bb004b;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.img-main-left {
-  height: 40vh;
-  width: auto;
-  border-radius: 10px 90px 90px 10px;
-}
-
-/* END MAIN */
-
-/* NEWS */
-
-.news {
-  padding: 0px 40px;
-  height: 80vh;
-  width: 100%;
-}
-
-.news h1 {
-  font-family: "Gotham";
-  margin-left: 5.5%;
-  padding-top: 30px;
-}
-
-.content-news {
-  overflow-x: scroll;
+.wrapping-feature {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 100vh;
-  width: auto;
-  margin: 46px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 0px;
+  height: 60vh;
 }
 
-.content-news form {
-  margin: 10px 25px;
-  width: auto;
-  height: 49vh;
+.content-feature {
   box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
     0 0px 10px 0 rgba(133, 132, 132, 0.36);
-  background-color: #fff;
+  padding: 20px;
+  margin: 0px 15px;
   border-radius: 8px;
-  cursor: pointer;
-}
-
-.content-news form:hover {
-  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.24), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.3s;
-}
-
-.content-img {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  width: 1fr;
-  height: 32vh;
-}
-
-.content-news h3 {
-  font-size: 16px;
+  /* background-image: url("/bg4.svg"); */
   font-family: "Gotham";
-  margin: 10px;
 }
 
-.content-news h3 p {
-  font-size: 10px;
-}
-
-.content-news p {
-  margin: 10px;
-  font-size: 10px;
-  font-family: "Gotham";
-  color: grey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content-news span {
-  color: #bb004b;
-  padding: 0;
-  margin: 0;
-}
-
-/* END NEWS */
-
-/* MEDICINE */
-
-.medicine {
-  height: auto;
+.feature-img img {
   width: auto;
-  margin: 0px 88px;
-}
-
-.medicine h1 {
-  font-family: "Gotham";
-  margin-left: 1.5%;
-  padding-top: 30px;
-}
-
-.medicine p {
-  font-family: "Gotham";
-  margin-left: 1.5%;
-}
-
-.main-medicine {
-  padding: 0px 0px;
-}
-
-.content-medicine {
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  margin-left: 1%;
-}
-
-.content-medicine form {
-  border: 1px solid rgb(180, 180, 180);
-  height: auto;
-  width: auto;
-  margin: 10px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  text-align: center;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.content-medicine form:hover {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.3s;
-}
-
-.content-medicine img {
-  height: 50px;
-  background-color: #93b5c6;
+  height: 80px;
+  background-color: #fff;
   border-radius: 100%;
 }
 
-.content-medicine h4 {
-  font-family: "Gotham";
-  margin: auto 20px;
-  font-size: 14px;
+/* END FEATURES */
+
+/* SOLUSI */
+
+.solusi {
+  padding: 4% 6%;
 }
 
-.content-medicine h3 {
-  font-family: "Gotham";
-  font-weight: bold;
-  font-size: 14px;
-  margin: 0 auto;
-  color: #dd0159;
+.heading-solusi h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px;
 }
 
-.media-footer {
+.heading-solusi p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.wrapping-solusi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 0px;
+  height: 60vh;
+}
+
+.content-solusi {
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px 20px;
+  box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
+    0 0px 8px 0 rgba(133, 132, 132, 0.36);
+}
+
+.content-solusi h1 {
+  background-color: #ee4755;
+  margin: 0px;
+  padding: 35px 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Gotham";
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+}
+
+.content-solusi h2 {
+  background-color: #01e4a7;
+  margin: 0px;
+  padding: 35px 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Gotham";
+  border-radius: 8px 8px 0px 0px;
+  color: #fff;
+}
+
+.description-solusi {
+  padding: 30px;
+  padding-bottom: 0px;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  align-items: center;
 }
 
-.media-footer img {
-  height: 12px;
+.description-solusi img {
+  width: auto;
+  height: 120px;
+  border-radius: 100%;
 }
 
-/* END MEDICINE */
+.title-solusi {
+  padding: 0px 30px;
+}
+
+.title-solusi p {
+  font-size: 20px;
+}
+
+.title-solusi button {
+  margin-top: 20px;
+  padding: 12px 40px;
+  background-color: #01e4a7;
+  border: transparent;
+  color: #fff;
+  border-radius: 6px;
+  font-family: "Gotham";
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.title-solusi button:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+
+  border: transparent;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* END SOLUSI */
+
+/* MEDIA LIPUT */
+
+.media-liput {
+  margin: 4% 6%;
+  height: 35vh;
+}
+
+.media-liput h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.content-media {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+}
+
+.content-media img {
+  width: auto;
+  height: 23vh;
+  margin: 0 auto;
+}
+
+/* END MEDIA LIPUT */
 
 /* FOOTER */
 
 footer {
-  width: 100%;
+  width: auto;
   height: auto;
-  margin-top: 4%;
-  background-color: #310014;
+  background-color: #ff0066;
   font-family: "Gotham";
   color: #fff;
 }
 
 .main-footer {
-  padding: 4% 8% 0% 8%;
   height: auto;
 }
 
@@ -411,6 +375,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
+  padding: 6%;
 }
 
 .content-footer h5 {
@@ -426,12 +391,12 @@ footer {
 }
 
 .bottom-footer {
-  background-color: #22000e;
+  background-color: #bb004b;
   height: auto;
   justify-content: space-between;
   display: flex;
   align-items: center;
-  padding: 0% 8%;
+  padding: 0% 6%;
 }
 
 .bottom-footer h4 {
@@ -441,7 +406,6 @@ footer {
 
 .logo-footer {
   display: flex;
-  padding-left: 26px;
   cursor: pointer;
 }
 
@@ -453,14 +417,19 @@ footer {
 
 .logo-footer img {
   width: auto;
-  height: 34px;
-  padding-right: 6px;
+  height: 30px;
+  padding-right: 4px;
+  align-items: center;
 }
 
 .bottom-footer img {
   width: auto;
   height: 16px;
   padding: 0px 8px;
+}
+
+.social-media {
+  padding: 0px 30px;
 }
 
 .media-footer {
@@ -480,176 +449,434 @@ footer {
 
 @media (max-width: 1440px) {
   /* HEADER */
+
+  .header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/bg4.svg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 80px;
+    font-family: "Gotham";
+    align-items: center;
+  }
+
   .logo {
-    padding-left: 12px;
+    display: flex;
+    padding-left: 36px;
+    cursor: pointer;
   }
 
   .logo h1 {
     color: #fff;
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 800;
+    margin: auto 0;
   }
 
   .logo img {
-    height: 28px;
-    padding-right: 4px;
-  }
-  .content-header h1 {
-    font-size: 26px;
+    width: auto;
+    height: 34px;
+    padding-right: 6px;
   }
 
-  .content-header h1 span {
-    font-size: 70px;
-    display: block;
+  .navbar a {
+    padding: 14px 30px;
+    transition: 0.3s all;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
   }
 
-  .content-header p {
-    font-size: 16px;
-  }
-  .btn-daftar {
-    padding: 10px 60px;
-    font-size: 12px;
-  }
-
-  .content-header img {
-    width: 270px;
-    height: 270px;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  /* END HEADER */
-
-  /* MAIN */
-
-  .main h1 {
-    font-size: 28px;
-    padding-top: 20px;
-  }
-
-  .content-main form {
-    display: grid;
-    grid-template-columns: 0.6fr 1fr;
-    box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
-      0 6px 18px 0 rgba(133, 132, 132, 0.36);
-    border-radius: 10px;
-    margin-top: 70px;
-    height: auto;
-    width: 100%;
-    background-color: #ff0066;
-  }
-
-  .content-main p {
-    font-size: 16px;
-    margin-top: 24px;
-  }
-
-  .btn-memberi {
-    padding: 8px 40px;
-    margin: 30px 0px 0px 0px;
-    font-size: 10px;
-  }
-
-  .btn-memberi:hover {
-    transition: 0.2s;
-    transform: scale(1.1);
+  .navbar a:hover {
+    color: #dd0159;
+    border-radius: 8px;
     background-color: #fff;
-    border: transparent;
-    color: #bb004b;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .title-main {
-    padding: 0px 20px;
-  }
-
-  /* END MAIN */
-
-  /* NEWS */
-
-  .news h1 {
-    margin-left: 70px;
-  }
-
-  .content-news {
-    overflow-x: scroll;
+  .content-header {
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 7%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 55vh;
-    margin: 46px 46px 0px 46px;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .content-news h3 {
-    font-size: 13px;
-    margin-bottom: 0px;
-  }
-
-  .content-news h3 p {
-    font-size: 8px;
-  }
-
-  .content-news p {
-    font-size: 8px;
-    margin: 8px 10px;
-  }
-
-  /* END NEWS */
-
-  /* MEDICINE */
-
-  .medicine h1 {
+  .content-header h1 {
+    font-size: 40px;
+    margin: 0;
     font-family: "Gotham";
-    margin-left: 2.5%;
-    padding-top: 0px;
+    color: #fff;
+    padding-left: 5px;
   }
 
-  .medicine p {
+  .content-header h6 {
     font-family: "Gotham";
-    margin-left: 2.5%;
-    padding-top: 0px;
+    font-size: 75px;
+    margin: 0;
+    font-weight: 500;
+    color: #fff;
   }
 
-  .main-medicine {
-    margin: 0px 5px;
+  .content-header p {
+    font-size: 20px;
+    font-family: "Gotham";
+    color: #fff;
+    padding-left: 5px;
   }
 
-  /* END MEDICINE */
+  .btn-header {
+    padding-top: 8%;
+  }
+
+  .btn-daftar {
+    padding: 14px 70px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #dd0159;
+    font-size: 16px;
+    font-family: "Gotham";
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-right: 20px;
+  }
+
+  .btn-daftar:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #dd0159;
+    border: 2px solid #fff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+      0 8px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .content-header .bg-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-header img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .mobile-nav {
+    display: none;
+    color: #000;
+  }
+
+  .mobile-nav button {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.2s;
+    margin: 0px;
+    cursor: pointer;
+    padding-top: 10px;
+    border: 1px solid;
+  }
+
+  .mobile-nav-content {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    top: 50px;
+    left: 70%;
+    right: 4%;
+    border-radius: 6px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .mobile-nav-content.visible {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .mobile-nav-content a {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0px;
+    font-family: "Gotham";
+  }
+
+  /* END HEADER */
+
+  /* BRAND */
+
+  .brand {
+    margin: 6%;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand img {
+    width: auto;
+    height: 24vh;
+  }
+
+  /* END BRAND */
+
+  /* FEATURES */
+
+  .features {
+    margin: 4% 7%;
+  }
+
+  .heading-feature h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+
+  .heading-feature p {
+    font-size: 17px;
+    margin: 0px;
+    font-family: "Gotham";
+  }
+
+  .wrapping-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 0px;
+    height: 60vh;
+  }
+
+  .content-feature {
+    box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
+      0 0px 10px 0 rgba(133, 132, 132, 0.36);
+    padding: 20px;
+    margin: 0px 15px;
+    border-radius: 8px;
+    /* background-image: url("/bg4.svg"); */
+    font-family: "Gotham";
+  }
+
+  .feature-img img {
+    width: auto;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+
+  /* END FEATURES */
+
+  /* SOLUSI */
+
+  .solusi {
+    padding: 4% 6%;
+  }
+
+  .heading-solusi h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .heading-solusi p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .wrapping-solusi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px;
+    height: 60vh;
+  }
+
+  .content-solusi {
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px;
+    box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
+      0 0px 8px 0 rgba(133, 132, 132, 0.36);
+  }
+
+  .content-solusi h1 {
+    background-color: #ee4755;
+    margin: 0px;
+    padding: 35px 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Gotham";
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+  }
+
+  .content-solusi h2 {
+    background-color: #01e4a7;
+    margin: 0px;
+    padding: 35px 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Gotham";
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+  }
+
+  .description-solusi {
+    padding: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .description-solusi img {
+    width: auto;
+    height: 120px;
+    border-radius: 100%;
+  }
+
+  .title-solusi {
+    padding: 0px 30px;
+  }
+
+  .title-solusi p {
+    font-size: 20px;
+  }
+
+  .title-solusi button {
+    margin-top: 20px;
+    padding: 12px 40px;
+    background-color: #01e4a7;
+    border: transparent;
+    color: #fff;
+    border-radius: 6px;
+    font-family: "Gotham";
+    font-size: 14px;
+    transition: 0.2s;
+  }
+
+  .title-solusi button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+
+    border: transparent;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+      0 8px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* END SOLUSI */
+
+  /* MEDIA LIPUT */
+
+  .media-liput {
+    margin: 4% 6%;
+    height: 35vh;
+  }
+
+  .media-liput h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .content-media {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+  }
+
+  .content-media img {
+    width: auto;
+    height: 23vh;
+    margin: 0 auto;
+  }
+
+  /* END MEDIA LIPUT */
 
   /* FOOTER */
 
+  footer {
+    width: auto;
+    height: auto;
+    background-color: #ff0066;
+    font-family: "Gotham";
+    color: #fff;
+  }
+
+  .main-footer {
+    height: auto;
+  }
+
+  .content-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding: 6%;
+  }
+
+  .content-footer h5 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 14px;
+  }
+
+  .content-footer p {
+    font-size: 12px;
+    margin: auto 0;
+    padding: 8px 0px;
+  }
+
+  .bottom-footer {
+    background-color: #bb004b;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0% 6%;
+  }
+
   .bottom-footer h4 {
     padding: 17px 0px;
-    margin-left: 28px;
-    font-size: 13px;
+    margin: 0;
   }
 
   .logo-footer {
     display: flex;
-    padding-left: 26px;
     cursor: pointer;
   }
 
   .logo-footer h1 {
-    font-size: 22px;
+    color: #fff;
+    font-size: 26px;
+    margin: 0 auto;
   }
 
   .logo-footer img {
     width: auto;
-    height: 24px;
+    height: 30px;
+    padding-right: 4px;
+    align-items: center;
   }
 
   .bottom-footer img {
-    height: 14px;
+    width: auto;
+    height: 16px;
+    padding: 0px 8px;
   }
 
-  .content-footer h5 {
-    font-size: 12px;
-  }
-
-  .content-footer p {
-    font-size: 10px;
+  .social-media {
+    padding: 0px 30px;
   }
 
   .media-footer {
@@ -673,79 +900,87 @@ footer {
 
   .header {
     height: 100vh;
+    width: 100%;
+    background-image: url("/bg4.svg");
+    background-position: center;
+    background-size: cover;
   }
 
   .navigation {
     display: flex;
     justify-content: space-between;
-    padding: 26px 30px;
+    padding: 46px 8px;
     font-family: "Gotham";
     align-items: center;
   }
 
   .logo {
     display: flex;
-    padding-left: 0px;
+    padding-left: 26px;
     cursor: pointer;
   }
 
   .logo h1 {
     color: #fff;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 800;
     margin: auto 0;
-    padding: 0px;
   }
 
   .logo img {
     width: auto;
-    height: 24px;
+    height: 34px;
     padding-right: 6px;
   }
 
-  .navbar a {
+  .navbar {
     display: none;
   }
 
   .content-header {
     align-items: center;
     justify-content: center;
-    margin-top: 0%;
+    margin-top: 6%;
     margin-left: 7%;
     display: grid;
-    grid-template-columns: 1fr 0.2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .content-header h1 {
-    font-size: 26px;
+    font-size: 40px;
     margin: 0;
-    padding-top: 40%;
     font-family: "Gotham";
     color: #fff;
+    padding-left: 5px;
   }
 
-  .content-header h1 span {
-    font-size: 50px;
-    display: block;
+  .content-header h6 {
+    font-family: "Gotham";
+    font-size: 75px;
+    margin: 0;
+    font-weight: 500;
+    color: #fff;
   }
 
   .content-header p {
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Gotham";
     color: #fff;
+    padding-left: 5px;
   }
 
   .btn-header {
-    padding-top: 20%;
+    padding-top: 8%;
   }
 
   .btn-daftar {
-    padding: 8px 20px;
-    border-radius: 6px;
+    padding: 14px 70px;
+    margin-left: 10px;
+    border-radius: 5px;
     background-color: #fff;
     border: 2px solid #fff;
     color: #dd0159;
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Gotham";
     cursor: pointer;
     transition: 0.3s;
@@ -764,211 +999,286 @@ footer {
       0 8px 30px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .content-header img {
+  .content-header .bg-img {
     display: none;
   }
 
+  .content-header img {
+    width: 350px;
+    height: 350px;
+  }
+
   .mobile-nav {
-    height: 0px;
-    width: 0%;
-    padding: 0px 20px;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: none;
+    color: #000;
   }
 
   .mobile-nav button {
-    border: transparent;
-    padding: 12px 20px 10px 0px;
-    border-radius: 6px;
-    margin: 5px 0px;
-    justify-content: flex-end;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.2s;
+    margin: 0px;
+    cursor: pointer;
+    padding-top: 10px;
+    border: 1px solid;
   }
 
-  .mobile-nav img {
-    height: 20px;
-    margin: auto;
+  .mobile-nav-content {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    top: 50px;
+    left: 70%;
+    right: 4%;
+    border-radius: 6px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .mobile-nav-content.visible {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .mobile-nav-content a {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0px;
+    font-family: "Gotham";
   }
 
   /* END HEADER */
 
-  /* MAIN */
+  /* BRAND */
 
-  .main {
-    padding: 0px;
-  }
-
-  .main h1 {
-    font-size: 10px;
-    padding-top: 0px;
-  }
-
-  .content-main {
-    margin: 50px 25px;
+  .brand {
+    margin: 6%;
     display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .content-main form {
-    display: grid;
-    grid-template-columns: 0.6fr 1fr;
-    box-shadow: 0 6px 10px 0 rgba(136, 136, 136, 0.26),
-      0 6px 18px 0 rgba(133, 132, 132, 0.36);
-    border-radius: 10px;
-    margin-top: 0px;
-    height: auto;
-    background-color: #ff0066;
-  }
-
-  .content-main p {
-    font-size: 7px;
-    line-height: 8px;
-    margin-top: 10px;
-  }
-
-  .btn-memberi {
-    padding: 4px 15px;
-    margin: 10px 0px 0px 0px;
-    font-size: 8px;
-    border-radius: 3px;
-    border: 1px solid #fff;
-  }
-
-  .img-main-left {
-    height: 20vh;
-    width: auto;
-  }
-
-  .title-main {
-    padding: 16px 10px;
-  }
-
-  /* END MAIN */
-
-  /* NEWS */
-
-  .news {
-    padding: 0px 26px;
-    height: auto;
-  }
-
-  .news h1 {
-    font-size: 16px;
-    margin-left: 0%;
-    padding-top: 0px;
-  }
-
-  .content-news {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 190px;
-    height: 35vh;
-    margin: 20px auto;
-    margin-bottom: 0px;
-  }
-
-  .content-news form {
-    margin: 10px 15px;
-    width: auto;
-    height: 31vh;
-  }
-
-  .content-img {
-    height: 20vh;
-  }
-
-  .content-news h3 {
-    font-size: 9px;
-    margin: 10px;
-    margin-bottom: 0px;
-  }
-
-  .content-news h3 p {
-    font-size: 4px;
-    padding-bottom: 5px;
-    margin: 0px;
-  }
-
-  .content-news p {
-    margin: 5px 10px;
-    font-size: 7px;
-  }
-
-  /* END NEWS */
-
-  /* MEDICINE */
-
-  .medicine {
-    height: auto;
-    width: auto;
-    margin: 0px 8px;
-  }
-
-  .medicine h1 {
-    font-family: "Gotham";
-    margin: 10px 0px;
-    padding-left: 4%;
-    font-size: 14px;
-  }
-
-  .medicine p {
-    font-family: "Gotham";
-    margin: 0px;
-    padding-left: 4%;
-    font-size: 9px;
-  }
-
-  .main-medicine {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    margin-left: 1%;
-  }
-
-  .content-medicine {
-    display: block;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+
+  .brand img {
+    width: auto;
+    height: 8vh;
+  }
+
+  /* END BRAND */
+
+  /* FEATURES */
+
+  .features {
+    margin: 4% 7%;
+  }
+
+  .heading-feature h1 {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+
+  .heading-feature p {
+    font-size: 9px;
+    margin: 0px;
+    font-family: "Gotham";
+  }
+
+  .wrapping-feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 0px;
+    height: 100vh;
+  }
+
+  .content-feature {
+    box-shadow: none;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 8px;
+    width: 70%;
+    height: auto;
+    font-family: "Gotham";
+  }
+
+  .feature-img img {
+    width: auto;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+  }
+
+  .description-feature h2 {
+    font-size: 13px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+
+  .description-feature p {
+    font-size: 9px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+
+  /* END FEATURES */
+
+  /* SOLUSI */
+
+  .solusi {
+    padding: 4% 2%;
+    height: 120vh;
+  }
+
+  .heading-solusi h1 {
+    font-size: 20px;
+    font-weight: 600;
     margin: 0px;
   }
 
-  .content-medicine form {
-    height: 32px;
+  .heading-solusi p {
+    font-size: 14px;
+    margin: 0;
   }
 
-  .content-medicine img {
-    height: 20px;
+  .wrapping-solusi {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 0px;
+
+    height: 100px;
   }
 
-  .content-medicine h4 {
-    font-size: 8px;
-    margin: auto 10px;
+  .content-solusi {
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin: 14px 5px;
+    box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
+      0 0px 8px 0 rgba(133, 132, 132, 0.36);
   }
 
-  .content-medicine h3 {
-    font-size: 10px;
+  .content-solusi h1 {
+    background-color: #ee4755;
+    margin: 0px;
+    padding: 20px 0px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Gotham";
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
   }
 
-  /* END MEDICINE */
+  .content-solusi h2 {
+    background-color: #01e4a7;
+    margin: 0px;
+    padding: 20px 0px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Gotham";
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+  }
+
+  .description-solusi {
+    padding: 20px;
+    padding-top: 22px;
+    display: block;
+    align-items: center;
+  }
+
+  .description-solusi img {
+    width: auto;
+    height: 40px;
+    border-radius: 100%;
+  }
+
+  .title-solusi {
+    padding: 0px;
+    
+  }
+
+  .title-solusi p {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  .title-solusi button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #01e4a7;
+    border: transparent;
+    color: #fff;
+    border-radius: 6px;
+    font-family: "Gotham";
+    font-size: 7px;
+    transition: 0.2s;
+  }
+
+  .title-solusi button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+
+    border: transparent;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+      0 8px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* END SOLUSI */
+
+  /* MEDIA LIPUT */
+
+  .media-liput {
+    margin: 4% 6%;
+    height: 15vh;
+  }
+
+  .media-liput h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .content-media {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+  }
+
+  .content-media img {
+    width: auto;
+    height: 6vh;
+    margin: 0 auto;
+  }
+
+  /* END MEDIA LIPUT */
 
   /* FOOTER */
 
-  .main-footer {
-    padding: 20px 26px;
+  footer {
+    width: auto;
     height: auto;
+    background-color: #ff0066;
+    font-family: "Gotham";
+    color: #fff;
+  }
+
+  .main-footer {
+    height: 30vh;
   }
 
   .content-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding: 4% 2%;
   }
 
   .content-footer h5 {
-    margin: 5px 0px;
-    padding: 0;
-    font-size: 7px;
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 8px;
   }
 
   .content-footer p {
@@ -977,41 +1287,64 @@ footer {
     padding: 8px 0px;
   }
 
+  .bottom-footer {
+    background-color: #bb004b;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0% 2%;
+  }
+
   .bottom-footer h4 {
     padding: 17px 0px;
     margin: 0;
-    font-size: 6px;
+    font-size: 8px;
   }
 
   .logo-footer {
-    padding: 0px 10px;
+    display: flex;
+    cursor: pointer;
   }
 
   .logo-footer h1 {
-    font-size: 12px;
-    margin: 2px 0px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
   }
 
   .logo-footer img {
     width: auto;
-    height: 15px;
-    padding-right: 5px;
+    height: 16px;
+    padding-right: 4px;
+    align-items: center;
   }
 
-  .media-footer p {
-    font-size: 6px;
-  }
-
-  .media-footer img {
-    height: 8px;
-  }
-
-  .tittle-footer {
-    padding: 0px 10px;
+  .bottom-footer img {
+    width: auto;
+    height: 16px;
+    padding: 0px 8px;
   }
 
   .social-media {
-    padding: 0px 10px;
+    padding: 0px 30px;
+  }
+
+  .media-footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .media-footer p {
+    font-size: 7px;
+  }
+
+  .media-footer img {
+    height: 7px;
+    padding-right: 6px;
   }
 
   /* END FOOTER */

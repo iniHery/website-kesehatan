@@ -1,7 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -11,7 +8,7 @@ export default function Home() {
       <section className="header">
         <div className="navigation">
           <div className="logo">
-            <img src="/healthy.png" />
+          <img src="/health-insurance.png" />
             <h1>KitaSehat</h1>
           </div>
           <div className="navbar">
@@ -36,13 +33,14 @@ export default function Home() {
         </div>
         <div className="content-header">
           <div>
-            <h1>Ayo Berbagi <span>Vitamin!</span></h1>
+            <h1>Ayo</h1>
+            <h6>Berbagi Vitamin!</h6>
             <p>
-              Inisiatif dari suatu comunitas untuk berbagi vitamin agar bisa
-              membantu orang yang tinggal di daerah pedalaman.
+              KitaSehat adalah sharing gate yang membantu warga yang berada di
+              daerah pedalaman mendapatkan vitamin.
             </p>
             <div className="btn-header">
-              <button className="btn-daftar">Daftar</button>
+              <button className="btn-daftar">Login</button>
             </div>
           </div>
           <div className="bg-img">
@@ -51,134 +49,125 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="main">
-        <div className="content-main">
-          <form>
-            <img className="img-main-left" src="/img.jpg" />
-            <div className="title-main">
-              <h1>Bagaimana Bisa?</h1>
-              <p>
-                Dengan cara mengulurkan bantuan, kamu bisa membantu saudara kita
-                yang berada di daerah pedalaman
-              </p>
-              <button className="btn-memberi">Bantu</button>
-            </div>
-          </form>
-        </div>
-      </section>
-
-      <section className="news">
-        <div>
-          <h1>Berita Terbaru</h1>
-          <bottom></bottom>
-        </div>
-        <div className="content-news">
-          <form>
-            <img className="content-img" src="/img1.jpg" />
-            <h3>
-              <p>
-                <span>detikHealth</span> 1 Sep 2021 08:00 WIB
-              </p>
-              Hati-hati Minum Vitamin D, Ini Bahaya Jika Dosisnya Terlalu
-              Tinggi!
-            </h3>
-            <p>
-              Vitamin D banyak dianjurkan selama pandemi COVID-19. Namun dokter
-              mengingatkan untuk tidak terlalu percaya...
-            </p>
-          </form>
-          <form>
-            <img className="content-img" src="/img2.jpg" />
-            <h3>
-              <p>
-                <span>detikFinance</span> 4 Sep 2021 19:00 WIB
-              </p>
-              Vitamin dan Makanan untuk Kuatkan Imun Lawan COVID-19
-            </h3>
-            <p>
-              Ayo mencegah COVID-19 dengan menguatkan imun. Konsumsi vitamin
-              berikut ini...
-            </p>
-          </form>
-          <form>
-            <img className="content-img" src="/img3.jpg" />
-            <h3>
-              <p>
-                <span>detikEduRabu</span> 5 Sep 2021 21:00 WIB
-              </p>
-              Rekomendasi Obat dan Vitamin untuk Isolasi Mandiri Pasien Corona
-            </h3>
-            <p>
-              Di tengah lonjakan kasus COVID-19, obat dan vitamin untuk isolasi
-              mandiri pasien corona menjadi...
-            </p>
-          </form>
-          <form>
-            <img className="content-img" src="/img4.jpg" />
-            <h3>
-              <p>
-                <span>detikHealth</span> 8 Sep 2021 09:00 WIB
-              </p>
-              2 Apotek di Cilandak Jaksel Kehabisan Stok Vitamin
-            </h3>
-            <p>
-              Vitamin menjadi salah satu produk yang diburu masyarakat di DKI
-              saat ini. Sayangnya, sejumlah apotek di...
-            </p>
-          </form>
-          <form>
-            <img className="content-img" src="/img5.jpg" />
-            <h3>
-              <p>
-                <span>detikHealth</span> 10 Sep 2021 10:00 WITA
-              </p>
-              3 Suplemen Anak Ini Tak Disukai Padahal Penting
-            </h3>
-            <p>
-              Sebagian besar suplemen untuk anak - anak dibuat rasa manis. Tapi
-              ada pua yang tak disukai, padahal...
-            </p>
-          </form>
+      <section>
+        <div className="brand">
+          <img src="/brand4.jpg" />
+          <img src="/brand1.jpg" />
+          <img src="/brand7.jpg" />
+          <img src="/brand6.jpg" />
+          <img src="/brand9.jpg" />
         </div>
       </section>
 
       <section>
-        <div className="medicine">
-          <div>
-            <h1>Vitamin</h1>
+        <div className="features">
+          <div className="heading-feature">
+            <h1>
+              Sharing Gate yang dibuat khusus untuk daerah pedalaman di
+              Indonesia.
+            </h1>
             <p>
-              Dapatkan informasi seputar kandungan, aturan, petunjuk penggunaan
-              vitamin di sini
+              KitaSehat adalah sharing gate yang membantu komunitas terhubung
+              dengan warga yang berada di daerah pedalaman di Indonesia, untuk
+              menyalurkan bantuan vitamin
             </p>
           </div>
-          <div className="main-medicine">
-            <div className="content-medicine">
-              <form>
-                <img src="/virus.png" />
-                <h4>COVID-19</h4>
-              </form>
-              <form>
-                <img src="/pills.png" />
-                <h4>JENIS-JENIS</h4>
-              </form>
-              <form>
-                <img src="/speaker.png" />
-                <h4>ATURAN</h4>
-              </form>
+          <div className="wrapping-feature">
+            <div className="content-feature">
+              <div className="feature-img">
+                <img src="/sharing.png" />
+              </div>
+              <div className="description-feature">
+                <h2>Gathering Community</h2>
+                <p>
+                  Tempatnya para komunitas berkumpul dari berbagai kalangan
+                  daerah untuk saling sharing seputaran vitamin dan lokasi warga
+                  yang berada di daerah pedalaman sehingga mempermudah untuk
+                  memberi bantuan untuk warga kita yang berada di pedalaman
+                  mendapatkan vitamin.
+                </p>
+              </div>
             </div>
-            <div className="content-medicine">
-              <form>
-                <img src="/book.png" />
-                <h4>PANDUAN</h4>
-              </form>
-              <form>
-                <img src="/anti-virus.png" />
-                <h4>ANTI VIRUS</h4>
-              </form>
-              <form>
-                <h3>LIHAT SEMUA</h3>
-              </form>
+            <div className="content-feature">
+              <div className="feature-img">
+                <img src="/free.png" />
+              </div>
+              <div className="description-feature">
+                <h2>Free</h2>
+                <p>
+                  Website ini gratis dan mudah untuk di akses sehingga siapaun
+                  dapat mudah saat mengakses website ini
+                </p>
+              </div>
             </div>
+            <div className="content-feature">
+              <div className="feature-img">
+                <img src="/headphones.png" />
+              </div>
+              <div className="description-feature">
+                <h2>Pelayanan</h2>
+                <p>
+                  Kami memahami kebutuhan Anda untuk layanan yang responsif dan
+                  tepat waktu terkait masalah pada saat membantu maupun meminta.
+                  Tim kami siap membantu Anda melalui email, 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="solusi">
+          <div className="heading-solusi">
+            <h1>Solusi</h1>
+            <p>
+              Panduan untuk mempermudah anda jika ingin memberi bantuan maupun
+              meminta bantuan.
+            </p>
+          </div>
+          <div className="wrapping-solusi">
+            <div className="content-solusi">
+              <h1>Memberi Bantuan</h1>
+              <div className="description-solusi">
+                <img src="/helping.png" />
+                <div className="title-solusi">
+                  <p>
+                    Dengan memberikan bantuan mu dengan satu vitamin bisa
+                    menyelamatkan satu nyawa
+                  </p>
+                  <button style={{ backgroundColor: "#ee4755" }}>
+                    Membantu
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="content-solusi">
+              <h2>Meminta Bantuan</h2>
+              <div className="description-solusi">
+                <img src="/hand1.png" />
+                <div className="title-solusi">
+                  <p>
+                    Dengan memberikan bantuan mu dengan satu vitamin bisa
+                    menyelamatkan satu nyawa
+                  </p>
+                  <button>Membantu</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="media-liput">
+          <h1>Diliput oleh</h1>
+          <div className="content-media">
+            <img src="/berita6.png" />
+            <img src="/berita7.png" />
+            <img src="/berita8.png" />
+            <img src="/berita2.png" />
+            <img src="/berita5.png" />
           </div>
         </div>
       </section>
@@ -187,7 +176,7 @@ export default function Home() {
         <div className="main-footer">
           <div className="content-footer">
             <div className="logo-footer">
-              <img src="/healthy.png" />
+              <img src="/health-insurance.png" />
               <h1>KitaSehat</h1>
             </div>
             <div className="tittle-footer">
@@ -204,7 +193,7 @@ export default function Home() {
               <p>Security</p>
             </div>
             <div className="social-media">
-              <h5>Call Center</h5>
+              <h5>Media Social</h5>
               <div className="media-footer">
                 <img src="/instagram.png" />
                 <p>Instagram</p>
