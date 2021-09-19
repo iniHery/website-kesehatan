@@ -914,7 +914,7 @@ footer {
   .navigation {
     display: flex;
     justify-content: space-between;
-    padding: 46px 8px;
+    padding: 20px 8px;
     font-family: "Gotham";
     align-items: center;
   }
@@ -975,7 +975,7 @@ footer {
   }
 
   .btn-header {
-    padding-top: 50%;
+    padding-top: 24%;
   }
 
   .btn-daftar {
