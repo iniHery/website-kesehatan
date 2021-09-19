@@ -8,7 +8,7 @@
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url("/bg4.svg");
+  background-image: url("/bg-desktop.svg");
   background-position: center;
   background-size: cover;
 }
@@ -100,7 +100,6 @@
   border: 2px solid #fff;
   color: #dd0159;
   font-size: 16px;
-  /* font-family: "Gotham"; */
   cursor: pointer;
   transition: 0.3s;
   font-weight: bold;
@@ -456,51 +455,19 @@ footer {
 @media (max-width: 1440px) {
   /* HEADER */
 
-  .header {
-    height: 100vh;
-    width: 100%;
-    background-image: url("/mobile.svg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    padding: 46px 80px;
-    align-items: center;
-  }
-
-  .logo {
-    display: flex;
-    padding-left: 36px;
-    cursor: pointer;
-  }
-
-  .logo h1 {
-    color: #fff;
-    font-size: 26px;
-    font-weight: 800;
-    margin: auto 0;
-  }
-
-  .logo img {
-    width: auto;
-    height: 34px;
-    padding-right: 6px;
-  }
-
   .content-header {
     align-items: center;
     justify-content: center;
-    margin-top: 6%;
-    margin-left: 7%;
+    margin-top: 4%;
+    margin-left: 8%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    line-height: 57px;
   }
 
   .content-header h1 {
     font-size: 40px;
+    font-weight: 400;
     margin: 0;
     color: #fff;
     padding-left: 5px;
@@ -514,71 +481,15 @@ footer {
   }
 
   .content-header p {
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
+    padding-top: 10px;
     padding-left: 5px;
-  }
-
-  .btn-header {
-    padding-top: 8%;
+    line-height: 24px;
   }
 
   .btn-daftar {
-    padding: 14px 70px;
-    margin-left: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: bold;
-    letter-spacing: 4px;
-    margin-right: 20px;
-  }
-
-  .content-header .bg-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .content-header img {
-    width: 350px;
-    height: 350px;
-  }
-
-  .mobile-nav {
-    display: none;
-    color: #000;
-  }
-
-  .mobile-nav button {
-    cursor: pointer;
-  }
-
-  .mobile-nav-content {
-    display: none;
-    position: fixed;
-    padding: 20px;
-    top: 50px;
-    left: 70%;
-    right: 4%;
-    border-radius: 6px;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #fff;
-    color: #000;
-  }
-
-  .mobile-nav-content.visible {
-    display: flex;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  .mobile-nav-content a {
-    text-align: center;
-    font-size: 14px;
-    padding: 10px 0px;
+    font-family: "Gotham";
   }
 
   /* END HEADER */
@@ -604,18 +515,17 @@ footer {
   /* FEATURES */
 
   .features {
-    margin: 4% 7%;
+    margin: 4% 8%;
   }
 
   .heading-feature h1 {
-    font-size: 40px;
-    margin: 10px 0px;
-    font-weight: 600;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
   }
 
   .heading-feature p {
-    font-size: 17px;
-    margin: 0px;
+    font-size: 20px;
+    font-family: "Gotham";
   }
 
   .wrapping-feature {
@@ -630,11 +540,14 @@ footer {
     margin: 0px 15px;
   }
 
-  .feature-img img {
-    width: auto;
-    height: 80px;
-    background-color: #fff;
-    border-radius: 100%;
+  .content-feature h2 {
+    font-size: 30px;
+    margin: 10px 0px;
+  }
+
+  .content-feature p {
+    font-size: 18px;
+    font-family: "Gotham";
   }
 
   /* END FEATURES */
@@ -642,96 +555,31 @@ footer {
   /* SOLUSI */
 
   .solusi {
-    padding: 4% 6%;
+    padding: 4% 8%;
   }
 
   .heading-solusi h1 {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
   }
 
   .heading-solusi p {
     font-size: 20px;
-    margin: 0;
+    font-family: "Gotham";
   }
 
   .wrapping-solusi {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 30px 0px;
-    height: 60vh;
-  }
-
-  .content-solusi {
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    margin: 0px 20px;
-    box-shadow: 0 0px 0px 0 rgba(136, 136, 136, 0.26),
-      0 0px 8px 0 rgba(133, 132, 132, 0.36);
+    height: 70vh;
   }
 
   .content-solusi h1 {
-    background-color: #ee4755;
-    margin: 0px;
-    padding: 35px 10px;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 8px 8px 0px 0px;
-    color: #fff;
+    font-family: "Gotham";
+    font-size: 30px;
   }
 
   .content-solusi h2 {
-    background-color: #01e4a7;
-    margin: 0px;
-    padding: 35px 10px;
-    font-size: 25px;
-    text-align: center;
-    /* font-family: "Gotham"; */
-    border-radius: 8px 8px 0px 0px;
-    color: #fff;
-  }
-
-  .description-solusi {
-    padding: 30px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: center;
-  }
-
-  .description-solusi img {
-    width: auto;
-    height: 120px;
-    border-radius: 100%;
-  }
-
-  .title-solusi {
-    padding: 0px 30px;
-  }
-
-  .title-solusi p {
-    font-size: 20px;
-  }
-
-  .title-solusi button {
-    margin-top: 20px;
-    padding: 12px 40px;
-    background-color: #01e4a7;
-    border: transparent;
-    color: #fff;
-    border-radius: 6px;
-    /* font-family: "Gotham"; */
-    font-size: 14px;
-    transition: 0.2s;
-  }
-
-  .title-solusi button:hover {
-    transition: 0.2s;
-    transform: scale(1.1);
-
-    border: transparent;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
-      0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+    font-family: "Gotham";
   }
 
   /* END SOLUSI */
@@ -739,25 +587,17 @@ footer {
   /* MEDIA LIPUT */
 
   .media-liput {
-    margin: 4% 6%;
+    margin: 4% 8%;
     height: 35vh;
   }
 
   .media-liput h1 {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0px;
-  }
-
-  .content-media {
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
   }
 
   .content-media img {
-    width: auto;
-    height: 23vh;
-    margin: 0 auto;
+    height: 24vh;
   }
 
   /* END MEDIA LIPUT */
@@ -765,89 +605,84 @@ footer {
   /* FOOTER */
 
   footer {
-    width: auto;
     height: auto;
     background-color: #ff0066;
-    /* font-family: "Gotham"; */
+    font-family: "Gotham";
     color: #fff;
   }
 
   .main-footer {
-    height: auto;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr ;
+    
   }
 
   .content-footer {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px;
-    padding: 6%;
+    padding-bottom: 6%;
+    padding: 4% 8%;
   }
 
   .content-footer h5 {
     margin: 0px;
     padding: 10px 0px;
-    font-size: 14px;
+    font-size: 25px;
   }
 
   .content-footer p {
-    font-size: 12px;
+    font-size: 20px;
     margin: auto 0;
     padding: 8px 0px;
   }
 
   .bottom-footer {
-    background-color: #bb004b;
-    height: auto;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding: 0% 6%;
+    padding: 0% 9%;
   }
 
   .bottom-footer h4 {
-    padding: 17px 0px;
-    margin: 0;
+    font-size: 16px;
   }
 
   .logo-footer {
     display: flex;
+    justify-content: center;
     cursor: pointer;
+    padding: 13% 0%;
   }
 
   .logo-footer h1 {
     color: #fff;
-    font-size: 26px;
-    margin: 0 auto;
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 0px;
   }
 
   .logo-footer img {
     width: auto;
-    height: 30px;
-    padding-right: 4px;
+    height: 40px;
+    padding-left: 30%;
     align-items: center;
-  }
-
-  .bottom-footer img {
-    width: auto;
-    height: 16px;
-    padding: 0px 8px;
   }
 
   .social-media {
-    padding: 0px 30px;
+    padding-left: 0%;
   }
 
   .media-footer {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    text-align: center;
-    cursor: pointer;
+    padding-left: 0%;
+  }
+
+  .media-footer p {
+    font-size: 18px;
   }
 
   .media-footer img {
-    height: 12px;
+    height: 20px;
     padding-right: 6px;
+  }
+
+  .title-footer {
+    margin: 0 auto;
   }
 
   /* END FOOTER */
@@ -1214,8 +1049,6 @@ footer {
   .social-media {
     padding: 0px 0px 0px 10px;
   }
-
-  
 
   .media-footer {
     display: flex;
