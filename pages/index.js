@@ -8,7 +8,7 @@ export default function Home() {
       <section className="header">
         <div className="navigation">
           <div className="logo">
-          <img src="/health-insurance.png" />
+            <img src="/health-insurance.png" />
             <h1>KitaSehat</h1>
           </div>
           <div className="navbar">
@@ -174,13 +174,13 @@ export default function Home() {
 
       <footer>
         <div className="main-footer">
+          <div className="logo-footer">
+            <img src="/health-insurance.png" />
+            <h1>KitaSehat</h1>
+          </div>
           <div className="content-footer">
-            <div className="logo-footer">
-              <img src="/health-insurance.png" />
-              <h1>KitaSehat</h1>
-            </div>
             <div className="tittle-footer">
-              <h5>Bekerjasama </h5>
+              <h5>Komunitas</h5>
               <p>Bali Berbagi</p>
               <p>Sehat Bersama</p>
               <p>Satu Hati</p>
