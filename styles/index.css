@@ -1048,13 +1048,12 @@ footer {
     font-size: 20px;
     margin: 10px 0px;
     font-weight: bold;
-
   }
 
   .description-feature p {
     font-size: 18px;
     margin: 10px 0px;
-    font-weight: 600;
+
     font-family: "Gotham";
   }
 
@@ -1146,8 +1145,6 @@ footer {
     background-color: #01e4a7;
     font-size: 14px;
   }
-
- 
 
   /* END SOLUSI */
 
