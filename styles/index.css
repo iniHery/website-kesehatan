@@ -68,13 +68,13 @@
 .content-header h1 {
   font-size: 40px;
   margin: 0;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   color: #fff;
   padding-left: 5px;
 }
 
 .content-header h6 {
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   font-size: 75px;
   margin: 0;
   font-weight: 500;
@@ -83,7 +83,7 @@
 
 .content-header p {
   font-size: 20px;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   color: #fff;
   padding-left: 5px;
 }
@@ -100,7 +100,7 @@
   border: 2px solid #fff;
   color: #dd0159;
   font-size: 16px;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   cursor: pointer;
   transition: 0.3s;
   font-weight: bold;
@@ -165,7 +165,7 @@
 .mobile-nav-content.visible {
   display: flex;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .mobile-nav-content a {
@@ -210,7 +210,7 @@
 .heading-feature p {
   font-size: 17px;
   margin: 0px;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
 }
 
 .wrapping-feature {
@@ -226,8 +226,7 @@
   padding: 20px;
   margin: 0px 15px;
   border-radius: 8px;
-  /* background-image: url("/bg4.svg"); */
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
 }
 
 .feature-img img {
@@ -277,7 +276,7 @@
   padding: 35px 10px;
   font-size: 25px;
   text-align: center;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   border-radius: 8px 8px 0px 0px;
   color: #fff;
 }
@@ -288,7 +287,7 @@
   padding: 35px 10px;
   font-size: 25px;
   text-align: center;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   border-radius: 8px 8px 0px 0px;
   color: #fff;
 }
@@ -321,7 +320,7 @@
   border: transparent;
   color: #fff;
   border-radius: 6px;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   font-size: 14px;
   transition: 0.2s;
 }
@@ -368,7 +367,7 @@ footer {
   width: auto;
   height: auto;
   background-color: #ff0066;
-  font-family: "Gotham";
+  /* font-family: "Gotham"; */
   color: #fff;
 }
 
@@ -467,7 +466,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 46px 80px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     align-items: center;
   }
 
@@ -518,13 +517,13 @@ footer {
   .content-header h1 {
     font-size: 40px;
     margin: 0;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     color: #fff;
     padding-left: 5px;
   }
 
   .content-header h6 {
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     font-size: 75px;
     margin: 0;
     font-weight: 500;
@@ -533,7 +532,7 @@ footer {
 
   .content-header p {
     font-size: 20px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     color: #fff;
     padding-left: 5px;
   }
@@ -550,7 +549,7 @@ footer {
     border: 2px solid #fff;
     color: #dd0159;
     font-size: 16px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     cursor: pointer;
     transition: 0.3s;
     font-weight: bold;
@@ -618,7 +617,7 @@ footer {
     text-align: center;
     font-size: 14px;
     padding: 10px 0px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
   }
 
   /* END HEADER */
@@ -656,7 +655,7 @@ footer {
   .heading-feature p {
     font-size: 17px;
     margin: 0px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
   }
 
   .wrapping-feature {
@@ -672,8 +671,7 @@ footer {
     padding: 20px;
     margin: 0px 15px;
     border-radius: 8px;
-    /* background-image: url("/bg4.svg"); */
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
   }
 
   .feature-img img {
@@ -723,7 +721,7 @@ footer {
     padding: 35px 10px;
     font-size: 25px;
     text-align: center;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     border-radius: 8px 8px 0px 0px;
     color: #fff;
   }
@@ -734,7 +732,7 @@ footer {
     padding: 35px 10px;
     font-size: 25px;
     text-align: center;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     border-radius: 8px 8px 0px 0px;
     color: #fff;
   }
@@ -767,7 +765,7 @@ footer {
     border: transparent;
     color: #fff;
     border-radius: 6px;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     font-size: 14px;
     transition: 0.2s;
   }
@@ -815,7 +813,7 @@ footer {
     width: auto;
     height: auto;
     background-color: #ff0066;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     color: #fff;
   }
 
@@ -903,19 +901,11 @@ footer {
 @media (max-width: 640px) {
   /* HEADER */
 
-  .header {
-    height: 100vh;
-    width: 100%;
-    background-image: url("/bg4.svg");
-    background-position: center;
-    background-size: cover;
-  }
-
   .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 8px;
-    font-family: "Gotham";
     align-items: center;
   }
 
@@ -926,16 +916,8 @@ footer {
   }
 
   .logo h1 {
-    color: #fff;
     font-size: 26px;
     font-weight: 800;
-    margin: auto 0;
-  }
-
-  .logo img {
-    width: auto;
-    height: 34px;
-    padding-right: 6px;
   }
 
   .navbar {
@@ -945,135 +927,60 @@ footer {
   .content-header {
     align-items: center;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 22%;
     margin-left: 7%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .content-header h1 {
     font-size: 40px;
-    margin: 0;
-    font-family: "Gotham";
-    color: #fff;
-    padding-left: 5px;
+    font-weight: 400;
   }
 
   .content-header h6 {
-    font-family: "Gotham";
-    font-size: 75px;
-    margin: 0;
+    font-size: 65px;
+    line-height: 70px;
     font-weight: 500;
-    color: #fff;
   }
 
   .content-header p {
-    font-size: 20px;
-    font-family: "Gotham";
-    color: #fff;
-    padding-left: 5px;
+    font-size: 24px;
   }
 
   .btn-header {
-    padding-top: 24%;
+    padding-top: 20%;
   }
 
   .btn-daftar {
-    padding: 14px 70px;
-    margin-left: 10px;
-    border-radius: 5px;
-    background-color: #fff;
-    border: 2px solid #fff;
-    color: #dd0159;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Gotham";
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: bold;
-    letter-spacing: 4px;
-    margin-right: 20px;
-  }
-
-  .btn-daftar:hover {
-    transition: 0.2s;
-    transform: scale(1.1);
-    background-color: #fff;
-    color: #dd0159;
-    border: 2px solid #fff;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
-      0 8px 30px 0 rgba(0, 0, 0, 0.19);
   }
 
   .content-header .bg-img {
     display: none;
   }
 
-  .content-header img {
-    width: 350px;
-    height: 350px;
-  }
-
-  .mobile-nav {
-    display: none;
-    color: #000;
-    padding-left: 10%;
-  }
-
-  .mobile-nav button {
-    background-color: transparent;
-    color: #fff;
-    transition: 0.2s;
-    margin: 0px;
-    cursor: pointer;
-    padding-top: 10%;
-    border: 1px solid;
-  }
-
-  .mobile-nav-content {
-    display: none;
-    position: fixed;
-    padding: 20px;
-    top: 50px;
-    left: 70%;
-    right: 4%;
-    border-radius: 6px;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #fff;
-    color: #000;
-  }
-
-  .mobile-nav-content.visible {
-    display: flex;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  .mobile-nav-content a {
-    text-align: center;
-    font-size: 14px;
-    padding: 10px 0px;
-    font-family: "Gotham";
-  }
-
   .mobile-nav {
     height: 80px;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px;
+    margin: auto 0;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .mobile-nav button {
     border: none;
-    padding: 0px 10px;
-    border-radius: 6px;
-    margin: 5px 0px;
-    font-size: 20px;
-    justify-content: flex-end;
+    padding: 0px 20px;
+  }
+
+  .mobile-nav-content.visible {
+    margin-top: 40px;
   }
 
   /* END HEADER */
@@ -1082,16 +989,15 @@ footer {
 
   .brand {
     margin: 6%;
-    display: grid;
-    grid-template-columns: 0.2fr 0.2fr ;
+    display: block;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
   .brand img {
     width: auto;
-    height: 12vh;
+    height: 14vh;
+    margin: auto 0;
   }
 
   /* END BRAND */
@@ -1103,14 +1009,15 @@ footer {
   }
 
   .heading-feature h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px 0px;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
   }
 
   .heading-feature p {
     font-size: 18px;
-    margin: 0px;
+    margin: 25px 0px;
     font-family: "Gotham";
   }
 
@@ -1123,12 +1030,11 @@ footer {
 
   .content-feature {
     box-shadow: none;
-    padding: 0px;
+    padding: 10px 0px;
     margin: 0px;
     border-radius: 8px;
-    width: 70%;
+    width: auto;
     height: auto;
-    font-family: "Gotham";
   }
 
   .feature-img img {
@@ -1139,15 +1045,17 @@ footer {
   }
 
   .description-feature h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px 0px;
-    font-weight: 600;
+    font-weight: bold;
+
   }
 
   .description-feature p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 10px 0px;
     font-weight: 600;
+    font-family: "Gotham";
   }
 
   /* END FEATURES */
@@ -1155,19 +1063,21 @@ footer {
   /* SOLUSI */
 
   .solusi {
-    padding: 4% 2%;
+    padding: 4% 7%;
     height: 115vh;
   }
 
   .heading-solusi h1 {
     font-size: 40px;
     font-weight: 600;
-    margin: 0px;
+    margin: 10px 0px;
+    font-family: "Roboto", sans-serif;
   }
 
   .heading-solusi p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
+    font-family: "Gotham";
   }
 
   .wrapping-solusi {
@@ -1227,28 +1137,17 @@ footer {
     font-size: 18px;
     margin: 0px;
     padding: 20px 0px;
+    font-family: "Gotham";
   }
 
   .title-solusi button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #01e4a7;
-    border: transparent;
-    color: #fff;
-    border-radius: 6px;
-    font-family: "Gotham";
     font-size: 14px;
-    transition: 0.2s;
   }
 
-  .title-solusi button:hover {
-    transition: 0.2s;
-    transform: scale(1.1);
-
-    border: transparent;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
-      0 8px 30px 0 rgba(0, 0, 0, 0.19);
-  }
+ 
 
   /* END SOLUSI */
 
@@ -1256,23 +1155,26 @@ footer {
 
   .media-liput {
     margin: 4% 6%;
-    height: 15vh;
+    height: auto;
   }
 
   .media-liput h1 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
   }
 
   .content-media {
     display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-columns: 1fr;
+    margin: 6%;
+    align-items: center;
   }
 
   .content-media img {
     width: auto;
-    height: 6vh;
+    height: 14vh;
     margin: 0 auto;
   }
 
@@ -1284,7 +1186,7 @@ footer {
     width: auto;
     height: auto;
     background-color: #ff0066;
-    font-family: "Gotham";
+    /* font-family: "Gotham"; */
     color: #fff;
   }
 
@@ -1323,7 +1225,7 @@ footer {
   .bottom-footer h4 {
     padding: 17px 0px;
     margin: 0;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .logo-footer {
