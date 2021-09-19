@@ -148,10 +148,9 @@ export default function Home() {
                 <img src="/hand1.png" />
                 <div className="title-solusi">
                   <p>
-                    Dengan memberikan bantuan mu dengan satu vitamin bisa
-                    menyelamatkan satu nyawa
+                   Meminta berbagai vitamin sesuai kebutuhan kamu
                   </p>
-                  <button>Membantu</button>
+                  <button>Meminta</button>
                 </div>
               </div>
             </div>
