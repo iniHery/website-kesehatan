@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="brand">
           <img src="/brand4.jpg" />
           <img src="/brand1.jpg" />
@@ -57,7 +57,7 @@ export default function Home() {
           <img src="/brand6.jpg" />
           <img src="/brand9.jpg" />
         </div>
-      </section>
+      </section> */}
 
       <section>
         <div className="features">
