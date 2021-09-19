@@ -516,6 +516,7 @@ footer {
 
   .features {
     margin: 4% 8%;
+    height: 100vh;
   }
 
   .heading-feature h1 {
@@ -541,12 +542,12 @@ footer {
   }
 
   .content-feature h2 {
-    font-size: 30px;
+    font-size: 26px;
     margin: 10px 0px;
   }
 
   .content-feature p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Gotham";
   }
 
