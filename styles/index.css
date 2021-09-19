@@ -1215,6 +1215,8 @@ footer {
     padding: 0px 0px 0px 10px;
   }
 
+  
+
   .media-footer {
     display: flex;
     align-items: center;
@@ -1224,11 +1226,11 @@ footer {
   }
 
   .media-footer p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .media-footer img {
-    height: 8px;
+    height: 14px;
     padding-right: 6px;
   }
 
