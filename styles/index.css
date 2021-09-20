@@ -986,14 +986,14 @@ footer {
   }
 
   .main-footer {
-    height: 34vh;
+    height: 60vh;
   }
 
   .content-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
     padding-bottom: 6%;
-    padding: 0% 8%;
+    padding: 10% 8%;
   }
 
   .content-footer h5 {
@@ -1039,7 +1039,7 @@ footer {
   .logo-footer img {
     width: auto;
     height: 30px;
-    padding-left: 32%;
+    padding-left: 30%;
     align-items: center;
   }
 
@@ -1050,7 +1050,7 @@ footer {
   }
 
   .social-media {
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 
   .media-footer {
@@ -1069,6 +1069,92 @@ footer {
     height: 14px;
     padding-right: 6px;
   }
+
+
+  /* FOOTER */
+
+  /* footer {
+    height: auto;
+    background-color: #ff0066;
+    font-family: "Gotham";
+    color: #fff;
+  }
+
+  .main-footer {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr ;
+    
+  }
+
+  .content-footer {
+    padding-bottom: 6%;
+    padding: 4% 8%;
+  }
+
+  .content-footer h5 {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 15px;
+  }
+
+  .content-footer p {
+    font-size: 10px;
+    margin: auto 0;
+    padding: 8px 0px;
+  }
+
+  .bottom-footer {
+    padding: 0% 9%;
+  }
+
+  .bottom-footer h4 {
+    font-size: 8px;
+  }
+
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 13% 0%;
+  }
+
+  .logo-footer h1 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0px;
+  }
+
+  .logo-footer img {
+    width: auto;
+    height: 30px;
+    padding-left: 10%;
+    align-items: center;
+  }
+
+  .social-media {
+    padding-left: 0%;
+  }
+
+  .media-footer {
+    padding-left: 0%;
+  }
+
+  .media-footer p {
+    font-size: 18px;
+  }
+
+  .media-footer img {
+    height: 20px;
+    padding-right: 6px;
+  }
+
+  .title-footer {
+    margin: 0 auto;
+  }
+ */
+  /* END FOOTER */
 
   /* END FOOTER */
 }
