@@ -148,7 +148,8 @@ export default function Home() {
                 <img src="/hand1.png" />
                 <div className="title-solusi">
                   <p>
-                   Meminta berbagai vitamin sesuai kebutuhan kamu
+                    Dengan meminta bantuan sesuai kebutuhan mu untuk
+                    meningkatkan imun tubuh mu
                   </p>
                   <button>Meminta</button>
                 </div>

@@ -516,7 +516,8 @@ footer {
 
   .features {
     margin: 4% 8%;
-    height: 100vh;
+    height: 9
+    50vh;
   }
 
   .heading-feature h1 {
@@ -572,6 +573,7 @@ footer {
   .wrapping-solusi {
     height: 70vh;
   }
+   
 
   .content-solusi h1 {
     font-family: "Gotham";
