@@ -1,0 +1,11 @@
+Nama : Ida Bagus Heryana
+Nomor peserta : 004
+
+
+Link vercel.app
+https://website-kesehatan.vercel.app/
+
+Platform ini yang memiliki nama brand KitaSehat yang berjudul "Ayo Berbagi Vitamin!" 
+yang bertujuan membantu warga yang tinggal di daerah pedalaman, untuk mendapatkan vitamin. 
+Maka platform ini di buat sebagai gerbang berbagi untuk komunitas atau donatur peduli sesama 
+dengan warga yang berada di darah pedalaman. 
